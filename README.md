@@ -39,6 +39,51 @@ We release the xMIND in two versions, corresponding to the original splits of [M
 
 The zip-compressed TSV file containing the translated news, for each language and each split, can be downloaded from [xMIND](xMIND/).
 
+## Automatically download
+
+The [download script](./download.py) enables automatically downloading the dataset for the chosen _language_, _dataset size_, and _dataset split_. 
+By _default_, the scripts downloads the zipped dataset, extracts the TSV news file, and deletes the zip file. 
+
+The following commands can be used to choose which dataset version to dowload:
+
+- Download xMIND for **all** languages, **all** dataset sizes, **all** dataset splits (default setting):
+    ```python
+        python download.py
+    ```
+
+- Download only one or more languages:
+    ```python
+        python download.py --languages {language_1} {language_2}
+    ```
+    Use the ISO 693-3 code of the language from the table above to choose a specific language. 
+
+- Download only one or more dataset sizes:
+    ```python
+        python download.py --sizes {dataset_size_1} {dataset_size_2}
+    ```
+    Supported dataset sizes: _large_ or _small_.
+
+- Download only one or more dataset splits:
+    ```python
+        python download.py --splits {dataset_split_1} {dataset_split_2} {dataset_split_3}
+    ```
+    Supported dataset splits: _train_, _dev_, or _test_.
+
+- Download without extracting the zipped file:
+    ```python
+        python download.py --extract_archive 
+    ```
+- Download without deleting the zipped file:
+    ```python
+        python download.py --clean_archive 
+    ```
+
+- The downloaded dataset is by default stored in a newly created directory called _xmIND_. Change the destination directory as follows:
+    ```python
+        python download.py --dst_dir 'my_folder' 
+    ```
+
+
 ## Data Format
 Each _news.tsv_ file contains the translated news; it has 3 columns, separated by the tab symbol:
 - nid: News ID of the article, identical to the corresponding news ID from the MIND dataset of the article.
