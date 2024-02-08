@@ -15,22 +15,22 @@ The table below summarizes information about each language included in xMIND, ac
 - **Macro-area**, **Family** ,and **Genus**: the macro-area, language family and genus from [WALS](https://wals.info/languoid) and [Glottolog](https://glottolog.org/)
 - **Res.**: the classification from [](https://arxiv.org/pdf/2207.04672.pdf) into _low-resource_ and _high-resource_
 
-| **Code** 	| **Language**     	| **Script** 	| **Macro-area** 	| **Family**     	| **Genus**             	| **Res.** 	|
-|----------	|------------------	|------------	|----------------	|----------------	|-----------------------	|----------	|
-| SWH      	| Swahili          	| Latin      	| Africa         	| Niger-Congo    	| Bantu                 	| high     	|
-| SOM      	| Somali           	| Latin      	| Africa         	| Afro-Asiatic   	| Lowland East Cushitic 	| low      	|
-| CMN      	| Mandarin Chinese 	| Han        	| Eurasia        	| Sino-Tibetan   	| Sinitic               	| high     	|
-| JPN      	| Japanese         	| Japanese   	| Eurasia        	| Japonic        	| Japanesic             	| high     	|
-| TUR      	| Turkish          	| Latin      	| Eurasia        	| Altaic         	| Turkic                	| high     	|
-| TAM      	| Tamil            	| Tamil      	| Eurasia        	| Dravidian      	| Dravidian             	| low      	|
-| VIE      	| Vietnamese       	| Latin      	| Eurasia        	| Austro-Asiatic 	| Vietic                	| high     	|
-| THA      	| Thai             	| Thai       	| Eurasia        	| Tai-Kadai      	| Kam-Tai               	| high     	|
-| RON      	| Romanian         	| Latin      	| Eurasia        	| Indo-European  	| Romance               	| high     	|
-| FIN      	| Finnish          	| Latin      	| Eurasia        	| Uralic         	| Finnic                	| high     	|
-| KAT      	| Georgian         	| Georgian   	| Eurasia        	| Kartvelic      	| Georgian-Zan          	| low      	|
-| HAT      	| Haitian Creole   	| Latin      	| North-America  	| Indo-European  	| Creoles and Pidgins   	| low      	|
-| IND      	| Indonesian       	| Latin      	| Papunesia      	| Austronesian   	| Malayo-Sumbawan       	| high     	|
-| GRN      	| Guarani          	| Latin      	| South-America  	| Tupian         	| Maweti-Guarani        	| low      	|
+| **Code** 	                | **Language**     	| **Script** 	| **Macro-area** 	| **Family**     	| **Genus**             	| **Res.** 	|
+|--------------------------	|------------------	|------------	|----------------	|----------------	|-----------------------	|----------	|
+| [SWH](./xMIND/swh/)      	| Swahili          	| Latin      	| Africa         	| Niger-Congo    	| Bantu                 	| high     	|
+| [SOM](./xMIND/som/)      	| Somali           	| Latin      	| Africa         	| Afro-Asiatic   	| Lowland East Cushitic 	| low      	|
+| [CMN](./xMIND/cmn/)      	| Mandarin Chinese 	| Han        	| Eurasia        	| Sino-Tibetan   	| Sinitic               	| high     	|
+| [JPN](./xMIND/jpn/)      	| Japanese         	| Japanese   	| Eurasia        	| Japonic        	| Japanesic             	| high     	|
+| [TUR](./xMIND/tur/)      	| Turkish          	| Latin      	| Eurasia        	| Altaic         	| Turkic                	| high     	|
+| [TAM](./xMIND/tam/)      	| Tamil            	| Tamil      	| Eurasia        	| Dravidian      	| Dravidian             	| low      	|
+| [VIE](./xMIND/vie/)      	| Vietnamese       	| Latin      	| Eurasia        	| Austro-Asiatic 	| Vietic                	| high     	|
+| [THA](./xMIND/tha/)      	| Thai             	| Thai       	| Eurasia        	| Tai-Kadai      	| Kam-Tai               	| high     	|
+| [RON](./xMIND/ron/)      	| Romanian         	| Latin      	| Eurasia        	| Indo-European  	| Romance               	| high     	|
+| [FIN](./xMIND/fin/)      	| Finnish          	| Latin      	| Eurasia        	| Uralic         	| Finnic                	| high     	|
+| [KAT](./xMIND/kat/)      	| Georgian         	| Georgian   	| Eurasia        	| Kartvelic      	| Georgian-Zan          	| low      	|
+| [HAT](./xMIND/hat/)      	| Haitian Creole   	| Latin      	| North-America  	| Indo-European  	| Creoles and Pidgins   	| low      	|
+| [IND](./xMIND/ind/)      	| Indonesian       	| Latin      	| Papunesia      	| Austronesian   	| Malayo-Sumbawan       	| high     	|
+| [GRN](./xMIND/grn/)      	| Guarani          	| Latin      	| South-America  	| Tupian         	| Maweti-Guarani        	| low      	|
 
 # Download
 The xMIND dataset is free to download for research purposes. 
