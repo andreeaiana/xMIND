@@ -102,3 +102,5 @@ The news in xMIND can be easily combined with the corresponding source news in E
 
 To facilitate a seamless integration of xMIND with the MIND data, we provide scripts for loading the dataset and constructing bilingual user consumption patterns in the [NewsRecLib](https://github.com/andreeaiana/newsreclib/tree/main) library.
 
+# License
+The usage of xMIND is permitted only for research, non-commercial puporses.
