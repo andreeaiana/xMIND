@@ -129,3 +129,14 @@ If you use xMIND, please cite the following publication:
       primaryClass={cs.IR}
 }
 ```
+
+Also consider citing the following:
+```
+@inproceedings{wu2020mind,
+  title={Mind: A large-scale dataset for news recommendation},
+  author={Wu, Fangzhao and Qiao, Ying and Chen, Jiun-Hung and Wu, Chuhan and Qi, Tao and Lian, Jianxun and Liu, Danyang and Xie, Xing and Gao, Jianfeng and Wu, Winnie and others},
+  booktitle={Proceedings of the 58th annual meeting of the association for computational linguistics},
+  pages={3597--3606},
+  year={2020}
+}
+```
