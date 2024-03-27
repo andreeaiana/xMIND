@@ -114,3 +114,18 @@ This work is licensed under a
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 
 If you intend to use, adapt, or share xMIND, particularly together with additional news and click behavior information from the original MIND dataset, please read and reference the [Microsoft Research License Terms](https://github.com/msnews/MIND/blob/master/MSR%20License_Data.pdf) of MIND.
+
+## Citation
+
+If you use xMIND, please cite the following publication:
+
+```
+@misc{iana2024mind,
+      title={MIND Your Language: A Multilingual Dataset for Cross-lingual News Recommendation}, 
+      author={Andreea Iana and Goran Glavaš and Heiko Paulheim},
+      year={2024},
+      eprint={2403.17876},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR}
+}
+```
