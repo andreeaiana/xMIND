@@ -24,7 +24,7 @@ The table below summarizes information about each language included in xMIND, ac
 |--------------------------	|------------------	|------------	|----------------	|----------------	|-----------------------	|----------	|
 | [SWH](./xMIND/swh/)      	| Swahili          	| Latin      	| Africa         	| Niger-Congo    	| Bantu                 	| high     	|
 | [SOM](./xMIND/som/)      	| Somali           	| Latin      	| Africa         	| Afro-Asiatic   	| Lowland East Cushitic 	| low      	|
-| [CMN](./xMIND/cmn/)      	| Mandarin Chinese 	| Han        	| Eurasia        	| Sino-Tibetan   	| Sinitic               	| high     	|
+| [ZHO](./xMIND/zho/)      	| Chinese          	| Han (Traditional) 	| Eurasia        	| Sino-Tibetan   	| Sinitic               	| high     	|
 | [JPN](./xMIND/jpn/)      	| Japanese         	| Japanese   	| Eurasia        	| Japonic        	| Japanesic             	| high     	|
 | [TUR](./xMIND/tur/)      	| Turkish          	| Latin      	| Eurasia        	| Altaic         	| Turkic                	| high     	|
 | [TAM](./xMIND/tam/)      	| Tamil            	| Tamil      	| Eurasia        	| Dravidian      	| Dravidian             	| low      	|

@@ -8,7 +8,6 @@ from tqdm import tqdm
 
 BASE_URL = 'https://github.com/andreeaiana/xMIND/raw/main/xMIND/'
 xMIND_LANGUAGES = [
-        'cmn',
         'fin', 
         'grn',
         'hat',
@@ -21,7 +20,8 @@ xMIND_LANGUAGES = [
         'tam',
         'tha',
         'tur',
-        'vie'
+        'vie',
+        'zho'
         ]
 xMIND_SIZE_SPLIT_DICT = {
         'large': ['train', 'dev', 'test'],
